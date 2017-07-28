@@ -1158,7 +1158,7 @@ input,
 button,
 select,
 textarea {
-  font-family: inherit;
+  font-family: "Lucida Bright", Georgia, serif;
   font-size: inherit;
   line-height: inherit;
 }
@@ -1242,10 +1242,10 @@ hr {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: inherit;
+  font-family: "Lucida Bright", Georgia, serif;
   font-weight: 500;
   line-height: 1.1;
-  color: inherit;
+  color; inherit
 }
 h1 small,
 h1 .small, h2 small,

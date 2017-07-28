@@ -846,7 +846,7 @@ Components
 }
 
 .btn-primary {
-  background: #28bbf8;
+  background: maroon;
 }
 
 .btn-success {
@@ -996,7 +996,7 @@ Components
 }
 .fh5co-feature-2 .fh5co-feature-icon i {
   font-size: 50px;
-  color: #28bbf8;
+  color:#FFC107;
 }
 .fh5co-feature-2 .fh5co-feature-icon.fh5co-circle {
   display: table;
