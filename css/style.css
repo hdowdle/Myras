@@ -64,14 +64,14 @@ a {
   -ms-transition: all 0.2s ease;
   -o-transition: all 0.2s ease;
   transition: all 0.2s ease;
-  color: #28bbf8;
+  color:maroon;
   border-bottom: 2px solid transparent;
 }
 a:hover, a:focus, a:active {
   outline: none;
   text-decoration: none;
-  color: #2e2e2e;
-  border-bottom: 2px solid #28bbf8;
+  color: #c38323;
+  border-bottom: 2px solid maroon;
 }
 
 input {
@@ -196,8 +196,8 @@ textarea {
 }
 #fh5co-header-section.fh5co-scrolled {
   padding: 0px 0;
-  background: rgba(0, 0, 0, 0.8);
-  background: white;
+  background: rgba(236, 152, 27, 0.77);
+  background:;
   -webkit-box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
   -moz-box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
   -ms-box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
@@ -211,14 +211,16 @@ textarea {
   color: #7b7b7b;
 }
 #fh5co-header-section.fh5co-scrolled #fh5co-menu-wrap .sf-menu a {
-  color: #2e2e2e;
+  color: white;
   border-bottom: none !important;
 }
 #fh5co-header-section.fh5co-scrolled #fh5co-menu-wrap .sf-menu a:hover {
-  color: #28bbf8 !important;
+  color: maroon !important;
+  font-weight: bold;
 }
 #fh5co-header-section.fh5co-scrolled #fh5co-menu-wrap .sf-menu li.active > a {
-  color: #28bbf8 !important;
+  color: maroon !important;
+  font-weight: bold;
 }
 #fh5co-header-section.fh5co-scrolled #fh5co-menu-wrap > .sf-menu > li > a {
   padding-top: 2em;
@@ -835,13 +837,13 @@ Components
 }
 
 .btn-outline {
-  border: 2px solid #eaeaea !important;
+  border: 2px solid maroon !important;
   background: transparent;
-  color: #2a2e37;
+  color:maroon;
 }
 .btn-outline:hover, .btn-outline:active, .btn-outline:focus {
-  border: 2px solid #282e3c !important;
-  background: #282e3c;
+  border: 2px solid #9c6718 !important;
+  background: #c38323;
   color: #ffffff;
 }
 
@@ -1131,8 +1133,15 @@ Components
 
 #fh5co-testimonial {
   padding: 10em 0;
-  background: #000 url(../images/hero2.jpg) no-repeat center center;
+  /* background: #000 url(../images/bg/smooth.jpg) no-repeat center center; */
   background-size: cover;
+   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a90329+0,8f0222+44,6d0019+100;Brown+Red+3D */
+  background: maroon; /* Old browsers */
+  background: -webkit-linear-gradient(top right, maroon 0%, #5A0000 44%, #340000 100%);
+  background: -moz-linear-gradient(top right, maroon 0%, #5A0000 44%, #340000 100%);
+  background: -o-linear-gradient(top right, maroon 0%, #5A0000 44%, #340000 100%);
+  background: linear-gradient(bottom left, maroon 0%, #5A0000 44%, #340000 100%); /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 @media screen and (max-width: 768px) {
   #fh5co-testimonial {
@@ -1485,10 +1494,10 @@ Components
   margin-bottom: -2.5em;
 }
 
-.owl-theme .owl-dots .owl-dot span {
+ .owl-theme .owl-dots .owl-dot span {
   width: 15px;
   height: 15px;
-  background: #28bbf8;
+  background: #5A0000;
   -webkit-transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
   -ms-transition: all 0.2s ease;
@@ -1498,12 +1507,32 @@ Components
 }
 .owl-theme .owl-dots .owl-dot span:hover {
   background: none;
-  border: 2px solid #28bbf8;
+  border: 2px solid #5A0000;
 }
 
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
   background: none;
-  border: 2px solid #28bbf8;
+  border: 2px solid #5A0000;
+} 
+#fh5co-testimonial .owl-theme .owl-dots .owl-dot span {
+  width: 15px;
+  height: 15px;
+  background: #c38323;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  border: 2px solid transparent;
+}
+#fh5co-testimonial .owl-theme .owl-dots .owl-dot span:hover {
+  background: none;
+  border: 2px solid #c38323;
+}
+
+#fh5co-testimonial .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background: none;
+  border: 2px solid #c38323;
 }
 
 /* Image Alignment */
@@ -1562,4 +1591,7 @@ a > img.fh5co-align-center {
 /*# sourceMappingURL=style.css.map */
 .bg-cover {
   background: rgba(0, 0, 0, 0.5);
+}
+iframe {
+  width: 100%;
 }
