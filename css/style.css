@@ -891,7 +891,8 @@ Components
 .btn-danger:hover,
 .btn-danger:active,
 .btn-danger:focus {
-  background: #282e3c;
+  border: 2px solid #9c6718 !important;
+  background:#c38323;
   color: #ffffff;
 }
 
@@ -1079,7 +1080,7 @@ Components
 }
 
 .resp-tab-active {
-  color: #28bbf8;
+  color:maroon;
 }
 
 .resp-content-active, .resp-accordion-active {
