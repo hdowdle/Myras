@@ -860,7 +860,7 @@ Components
 }
 
 .btn-info {
-  background: #0bbff2;
+  background: maroon;
 }
 
 .btn-warning {
@@ -1271,7 +1271,7 @@ Components
   background: #00e195;
 }
 .progress-bar.progress-bar-info {
-  background: #0bbff2;
+  background: maroon;
 }
 .progress-bar.progress-bar-warning {
   background: #ffd042;
