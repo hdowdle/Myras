@@ -226,10 +226,17 @@ textarea {
 		#fh5co-menu-wrap {
 			.sf-menu a {
 				color: $brand-darker;
+				&:after {
+					color: $brand-darker!important;
+				}
 				border-bottom: none!important;
 				&:hover {
 					color: $brand-primary!important;
+					&:after {
+						color: $brand-primary!important;
+					}
 				}
+				
 			}
 			.sf-menu li.active > a {
 				color: $brand-primary!important;
@@ -290,6 +297,9 @@ textarea {
 	zoom: 1; 
 	font-size: 13px;
 	border-bottom: none!important;
+	&:after {
+		color: rgba(255,255,255,.4);	
+	}
 }
 .sf-menu li,
 .sf-menu ul li,
@@ -311,6 +321,11 @@ textarea {
 .sf-menu li.active a {
 	color: $brand-white;
 }
+
+.sf-menu li.sfHover a:after {
+	color: $brand-white!important;
+}
+
 .sf-menu ul li:hover,
 .sf-menu ul li.sfHover {
 	background: transparent;

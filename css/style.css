@@ -197,7 +197,6 @@ textarea {
 #fh5co-header-section.fh5co-scrolled {
   padding: 0px 0;
   background: rgba(236, 152, 27, 0.77);
-  background:;
   -webkit-box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
   -moz-box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
   -ms-box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
@@ -214,11 +213,24 @@ textarea {
   color: white;
   border-bottom: none !important;
 }
+#fh5co-header-section.fh5co-scrolled #fh5co-menu-wrap .sf-menu a:after {
+  color: white!important;
+}
 #fh5co-header-section.fh5co-scrolled #fh5co-menu-wrap .sf-menu a:hover {
   color: maroon !important;
   font-weight: bold;
 }
+
+#fh5co-header-section.fh5co-scrolled #fh5co-menu-wrap .sf-menu a:hover:after {
+  color: maroon !important;
+  font-weight: bold;
+}
+
 #fh5co-header-section.fh5co-scrolled #fh5co-menu-wrap .sf-menu li.active > a {
+  color: maroon !important;
+  font-weight: bold;
+}
+#fh5co-header-section.fh5co-scrolled #fh5co-menu-wrap .sf-menu li.active > a:after {
   color: maroon !important;
   font-weight: bold;
 }
@@ -277,6 +289,10 @@ textarea {
   border-bottom: none !important;
 }
 
+.sf-menu a:after {
+  color: rgba(255, 255, 255, 0.4)!important;
+}
+
 .sf-menu li,
 .sf-menu ul li,
 .sf-menu ul ul li,
@@ -298,6 +314,14 @@ textarea {
 .sf-menu ul li.sfHover a,
 .sf-menu li.active a {
   color: #ffffff;
+}
+
+.sf-menu li.active a:after {
+	color: #ffffff!important;
+}
+
+.sf-menu li.sfHover a:after {
+	color: #ffffff!important;
 }
 
 .sf-menu ul li:hover,
