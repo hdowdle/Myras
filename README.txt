@@ -1,10 +1,9 @@
 
 TITLE: 
-Display - Responsive Free HTML5 template
+Myra's Gallery
 
 AUTHOR:
-DESIGNED & DEVELOPED by FREEHTML5.co
-http://freehtml5.co/
+Haley Dowdle
 
 
 CREDITS:
